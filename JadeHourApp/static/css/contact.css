@@ -1,0 +1,45 @@
+* {
+    margin: 0x;
+    padding: 0;
+}
+#container {
+    background-image: url(../img/golden_hour.jpg);
+}
+#container form {
+    text-align: center;
+    vertical-align: middle;
+}
+#container h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(46, 34, 3);
+}
+#container input {
+    border-radius: 10px; 
+}
+#container input[type=submit] {
+    padding: 5px;
+    background-image: url(../img/golden_hour.jpg);
+}
+#container input[type=textarea] {
+    padding: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#cart-icon{
+	width:25px;
+	display: inline-block;
+	margin-left: 15px;
+}
+#cart-total{
+	display: block;
+	text-align: center;
+	color:#fff;
+	background-color: red;
+	width: 20px;
+	height: 25px;
+	border-radius: 50%;
+	font-size: 14px;
+}
